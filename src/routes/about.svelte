@@ -22,22 +22,13 @@
 	<h1>About this app</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
+		This app (<a href="https://github.com/6vx/glhfev">GLHFEV</a>) is a quick and dirty playground for some ideas.
 	</p>
-
-	<!-- TODO lose the @next! -->
-	<pre>npm init svelte@next</pre>
-
 	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
+		It's a work-in-progress/test-site, so expect bugs and other issues.
 	</p>
-
 	<p>
-		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
+		The TODOs route came with the template, will remove after scouring it for ideas.
 	</p>
 </div>
 

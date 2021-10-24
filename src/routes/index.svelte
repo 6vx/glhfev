@@ -7,29 +7,22 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>GLHFEV</title>
 </svelte:head>
 
 <section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</div>
+	<h1><span class="yellow">GL</span> <span class="orange">HF</span> <span class="green">EV</span></h1>
 
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
+	<h2>Fiddlin' w/ widgets</h2>
 
 	<Counter />
 </section>
 
 <style>
+	.yellow { color: #ff0; }
+	.orange { color: #f90; }
+	.green { color: #0f0; }
+
 	section {
 		display: flex;
 		flex-direction: column;
@@ -42,7 +35,7 @@
 		width: 100%;
 	}
 
-	.welcome {
+	/* .welcome {
 		position: relative;
 		width: 100%;
 		height: 0;
@@ -55,5 +48,5 @@
 		height: 100%;
 		top: 0;
 		display: block;
-	}
+	} */
 </style>
